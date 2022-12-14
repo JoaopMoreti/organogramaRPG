@@ -1,0 +1,16 @@
+.fim-formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.botao-formulario{
+    position: relative;
+    top: 200px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+

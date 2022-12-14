@@ -6,7 +6,7 @@
     
 }
 
-.campo-texto div{
+.campo-texto .campo-texto-item{
     display: flex;
     flex-direction: column;
      

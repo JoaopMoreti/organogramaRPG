@@ -1,5 +1,5 @@
 import Banner from "./componentes/Banner/Banner";
-import CampoTexto from "./componentes/CampoTexto";
+import Formulario from "./componentes/Formulario/Index";
 
 
 
@@ -7,16 +7,13 @@ function App() {
   return (
     <div className="App">
       <Banner/>
-      <div className="campo-texto">
-        <div className="caixa">
-
-      <CampoTexto label="Nome do Jogador:"/>
-      <CampoTexto label="Nome do Personagem:"/>
-      <CampoTexto label="Raça:"/>
-      <CampoTexto label="Classe:"/>
-      <CampoTexto label="Imagem:"/>
+      <section style={{backgroundImage:"url('/img/fundo_section1.jpg')"}}>
+        <div className="campo-texto">
+          <div className="caixa" style={{backgroundImage:"url('/img/pergaminho.jpg')"}}>
+            <Formulario/>
+          </div>
         </div>
-      </div>
+      </section>
 
     </div>
   );
