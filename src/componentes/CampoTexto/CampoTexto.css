@@ -1,0 +1,26 @@
+.campo-texto{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.campo-texto div{
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.caixa{
+    width: 40%;
+    border-width: 5px;
+    margin-bottom: 5px; 
+    border-style: solid; 
+    border-color:  rgb(0, 0, 0);
+    font-size: larger;
+
+}
+
+
+
